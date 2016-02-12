@@ -21,7 +21,7 @@ if isGamma == "n":
 #Get frequencies
 freqs = []
 if isGamma == "y":
-    filename = "dyn.G"
+    filename = "dynmat.out"
     file = open(filename,"r")
     for line in file:
         if "freq" in line:
